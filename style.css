@@ -7,19 +7,20 @@
 }
 body {
     background-color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'android', sans-serif ;
     
 }
         /*  NAVBAR */
 nav {
     width: 100%;
     height: 70px;
-    background-color: #000;
+    background-color: pink;
 }
 .liste-nav {
     width: 100%;
     height: 100%;
     text-align: center;
+    
 }
 .item-nav{
     display: inline-block;
@@ -27,9 +28,10 @@ nav {
     line-height: 70px;
     margin: 0 10px;
     cursor: pointer;
+    
 }
 a {
-    color: rgb(216, 216, 231);
+    color: #000;
 }
 .btn-toggle-container {
     position: absolute;
